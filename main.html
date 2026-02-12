@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>🌟 Galaksilerin Yıldızı</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<!-- ANA SAYFA -->
+
+<div id="mainPage">
+
+<!-- 1. BÖLÜM -->
+
+<section class="step active" id="step1">
+
+<h1>🌌 Yıldızlar Savaşı 🌌</h1>
+
+<p>Bu sayfa, evrenin derinliklerinde geçen büyük bir Yıldızlar Savaşının hikâyesidir...</p>
+
+<img src="zwicky18.jpg.jpg" class="normal-img">
+
+<p>
+I Zwicky 18 galaksisi milyonlarca yıldız üretmek için yarışıyordu...
+</p>
+
+<button class="next-btn" onclick="nextStep(1)">➡ Devam Et</button>
+
+</section>
+
+
+<!-- 2. BÖLÜM -->
+
+<section class="step" id="step2">
+
+<h2>Fırtına Öncesi Sessizlik</h2>
+
+<img src="samanyolu.jpg.png" class="normal-img">
+
+<p>
+30.01.2000... Samanyolu Galaksisi kaderine hazırlanıyordu.
+</p>
+
+<img src="m106.jpg.png" class="normal-img">
+
+<p>
+M106 enerjisini kaybederek yarıştan çekildi...
+</p>
+
+<button class="next-btn" onclick="nextStep(2)">➡ Devam Et</button>
+
+</section>
+
+
+<!-- 3. BÖLÜM -->
+
+<section class="step" id="step3">
+
+<h2>Son Zafer</h2>
+
+<img src="ben.jpg.jpeg" class="hero-img">
+
+<p>Samanyolu’nun gururu: Mars Kraliçesi 💫</p>
+
+<p>İyi ki doğdun!</p>
+
+<strong>Evren seninle gurur duyuyor ✨</strong>
+
+
+<div class="boss-section">
+
+<div class="boss-text">
+
+⭐ Yıldızlarla olan savaşlarını kazandın.<br>
+Bölüm sonu canavarı ile yüzleşmeye hazır mısın?
+
+</div>
+
+<button class="boss-button" id="startBtn">
+Ecemsu Kaybetmez 💫
+</button>
+
+</div>
+
+</section>
+
+</div>
+
+
+<!-- OYUN -->
+
+<div id="gamePage">
+
+<div class="game-box">
+
+<h1>🎮 Bölüm Sonu Savaşı 🎮</h1>
+
+<div class="players">
+
+<div>👑 Mars Kraliçesi</div>
+<div>🏆 Tavla Şampiyonu</div>
+
+</div>
+
+<div class="choices">
+
+<button onclick="play('tas')">🪨 Taş</button>
+<button onclick="play('kagit')">📄 Kağıt</button>
+<button onclick="play('makas')">✂️ Makas</button>
+
+</div>
+
+<div id="result"></div>
+
+</div>
+
+</div>
+
+
+<!-- FINAL -->
+
+<div id="finalScreen">
+
+<img src="ben.jpg.jpeg" class="final-img">
+
+<div class="final-text">
+✨ Olsun Yine De İyi İlerledin ✨
+</div>
+
+</div>
+
+
+<canvas id="confetti"></canvas>
+
+<script src="script.js"></script>
+
+</body>
+</html>
