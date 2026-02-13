@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 body{
     background:radial-gradient(circle,#020111,#000);
     color:white;
     text-align:center;
-    font-family:Segoe UI,Arial;
+    font-family:Segoe UI, Arial;
 }
 
 
@@ -36,7 +35,6 @@ body{
 }
 
 
-
 /* RESİMLER */
 
 .normal-img{
@@ -53,7 +51,6 @@ body{
     border-radius:50%;
     box-shadow:0 0 25px gold;
 }
-
 
 
 /* BUTONLAR */
@@ -75,7 +72,6 @@ body{
 }
 
 
-
 .boss-section{
     margin-top:40px;
     padding:25px;
@@ -90,7 +86,6 @@ body{
     border-radius:30px;
     cursor:pointer;
 }
-
 
 
 /* OYUN */
@@ -108,7 +103,6 @@ body{
     border:2px solid gold;
     border-radius:25px;
 }
-
 
 
 /* FINAL */
@@ -146,7 +140,6 @@ body{
 }
 
 
-
 /* CONFETTI */
 
 #confetti{
@@ -157,163 +150,3 @@ body{
     height:100%;
     pointer-events:none;
 }
-=======
-body{
-    background:radial-gradient(circle,#020111,#000);
-    color:white;
-    text-align:center;
-    font-family:Segoe UI,Arial;
-}
-
-
-/* ANA SAYFA */
-
-#mainPage{
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-
-/* ADIMLAR */
-
-.step{
-    max-width:900px;
-    padding:30px;
-    display:none;
-
-    opacity:0;
-    transform:translateX(50px);
-    transition:1s;
-}
-
-.step.active{
-    display:block;
-    opacity:1;
-    transform:translateX(0);
-}
-
-
-
-/* RESİMLER */
-
-.normal-img{
-    width:50%;
-    max-width:350px;
-    margin:20px auto;
-    display:block;
-    border-radius:15px;
-    box-shadow:0 0 15px gold;
-}
-
-.hero-img{
-    width:180px;
-    border-radius:50%;
-    box-shadow:0 0 25px gold;
-}
-
-
-
-/* BUTONLAR */
-
-.next-btn{
-    margin-top:25px;
-    padding:12px 30px;
-    background:gold;
-    border:none;
-    border-radius:25px;
-    font-size:1em;
-    cursor:pointer;
-    font-weight:bold;
-    transition:.3s;
-}
-
-.next-btn:hover{
-    transform:scale(1.1);
-}
-
-
-
-.boss-section{
-    margin-top:40px;
-    padding:25px;
-    border:2px solid gold;
-    border-radius:20px;
-}
-
-.boss-button{
-    padding:15px 30px;
-    background:linear-gradient(45deg,gold,orange);
-    border:none;
-    border-radius:30px;
-    cursor:pointer;
-}
-
-
-
-/* OYUN */
-
-#gamePage{
-    display:none;
-    min-height:100vh;
-    padding-top:60px;
-}
-
-.game-box{
-    max-width:600px;
-    margin:auto;
-    padding:30px;
-    border:2px solid gold;
-    border-radius:25px;
-}
-
-
-
-/* FINAL */
-
-#finalScreen{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background:#000;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-
-    opacity:0;
-    pointer-events:none;
-    transition:1s;
-}
-
-#finalScreen.show{
-    opacity:1;
-    pointer-events:auto;
-}
-
-.final-img{
-    width:200px;
-    border-radius:50%;
-}
-
-.final-text{
-    font-size:1.6em;
-    color:gold;
-}
-
-
-
-/* CONFETTI */
-
-#confetti{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    pointer-events:none;
-}
->>>>>>> a20b6a6852ac05fb45e9512afed88dc740b12821
